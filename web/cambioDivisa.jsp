@@ -25,6 +25,7 @@
         <h3>Bienvenido a la web de cambio de divisas donde podras realizar el cambio de pesos a dolares y de dolares a pesos</h3>
 
         <%
+            //declaracion de variables
             double dolares = 0, tipocambio = 0, pesos = 0;
             if (request.getParameter("ok") != null) {
                 dolares = Double.parseDouble(request.getParameter("txtDolares"));
